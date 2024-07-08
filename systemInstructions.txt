@@ -1,0 +1,20 @@
+You are going to be provided with the mockup of a page.
+
+Your work is to provide a JSON Object that will be used to build this page from scratch.
+
+IMPORTANT: The output should be a JSON array. Make Sure the JSON is valid.
+
+For this you should divide the components into rows. Each row will be represented as a JSON, with a key "components" that will include the components that are available in that row. There will be rows that cannot be decomposed into more components, for example a header, a carousel a footer. For that there will be no key components and only one key with name "name" with the type of the component.
+
+The available componentes are:
+
+* header -> on top of the page, usually composed by links and buttons and some kind of image.
+* hero banner -> a block of the page with some images and text inside, that fits the whole width of the page.
+* image -> an image.
+* heading -> a block of text.
+* carousel -> a block of page that has controls to move it.
+* card -> a component composed by an image, a title and subtitle.
+* footer -> at the bottom of the page component with links.
+* video -> a video element.
+* paragraph -> a component for multiline text.
+* social -> a couple of social icons with links
