@@ -77,6 +77,10 @@ async function main() {
 
 function getPageElement(name) {
 	switch (name) {
+		case 'button': {
+			return getFragmentDefinition('BASIC_COMPONENT-button');
+		}
+
 		case 'header': {
 			return getFragmentDefinition('NAVIGATION_BARS-header-light');
 		}
